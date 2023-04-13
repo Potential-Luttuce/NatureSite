@@ -77,9 +77,10 @@ html, body {
     align-items: center;
     margin-top: 1em;
 }
-#card {
+#card,
+.card-image {
     height: 80px;
     width: 80px;
-    border: 2px solid white;
     border-radius: 15px 35px;
 }
+
