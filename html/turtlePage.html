@@ -17,31 +17,59 @@
         background-color: #61398F;
         color: aliceblue;
         }
+        .SB-bttn {
+            color: inherit;
+        }
         .SB-bttn:hover {
         color: rgb(23, 98, 168);
         }
-        #header {
+        #pageContent {
+            color: black;
+        }
+        #navBar {
             background: black;
         }
     </style> <!--FOR COLOR-->
 </head>
 <body>
     <div id="main-sideBar">
-        <div><p class="SB-intro">Here is some Text:</p>
+        <div id="SB-intro">
+            <img src="../images/turtles/200w.webp" id="turtleGIF" alt="Cute Turtle GIF">
             Click The Links to Navigate Around.</div>
         <div id="SB-bttnContainer">
-            <a class="SB-bttn" href="">2020</a>
-            <a class="SB-bttn" href="">2021</a>
-            <a class="SB-bttn" href="">2022</a>
-            <a class="SB-bttn" href="">2023</a>
+            <a class="SB-bttn" href="">ANIMAL</a>
+            <a class="SB-bttn" href="">ANIMAL</a>
+            <a class="SB-bttn" href="">ANIMAL</a>
+            <a class="SB-bttn" href="">ANIMAL</a>
         </div>
     </div>
-    <div id="main-pageContainer">
-        <div id="header"><div id="navLinks">
+        <!-- <div id="navBar"><div id="navLinks">
             <div class="left-link">Left</div>
             <div class="right-link">Right</div>
-        </div></div>
-        <div id="pageContent"><h1>Turtle Page Conent</h1></div>
+        </div></div>  -->
+    <div id="pageContent">
+        <div>Turtle Content</div>
+        <div id="cards">
+            <div class="card-txt"><div id="card">
+                    <a href=""><img src="../images/robot.jpg" 
+                        alt="Robot" class="card-image"></a></div>Turtle Text
+            </div>
+            <div class="card-txt"><div id="card">
+                <a href=""><img src="../images/robot.jpg" 
+                    alt="Robot" class="card-image"></a></div>Turtle Text
+            </div>
+            <div class="card-txt"><div id="card">
+                <a href=""><img src="../images/robot.jpg" 
+                    alt="Robot" class="card-image"></a></div>Turtle Text
+            </div>
+            <div class="card-txt"><div id="card">
+                <a href=""><img src="../images/robot.jpg" 
+                alt="Robot" class="card-image"></a></div>Turtle Text
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="author">Michael Cuesta @ Potential_Lettuce</div>
     </div>
 </body>
 </html>

@@ -11,6 +11,8 @@ Thank you - Mike
 # To Do :
 > Home Page(landing)
 
+-done
+
 > Images
 1. Add all images for the site to the Images DIR in their own respective DIR
 
@@ -18,5 +20,8 @@ Thank you - Mike
 1. Create animals sites for each animal in my pics
 2. Will probably need to add STYLE tag to each html for individual coloring of elements - they should all have similar functionality and layout. 
     > Turtle
-    1. Use template with sidebar from other project
+    1. ~~Use template with sidebar from other project~~
+    2. Create lauout for images/cards
+    3. Figure out whats going on with NAVBAR
+    4. Figure out whats going on with main-page
     

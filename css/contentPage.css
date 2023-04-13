@@ -1,20 +1,25 @@
 /* FOR CONTENT(SIDEBAR)PAGES */
 * {
-    /* border: 1px solid  black; */
+    border: 1px solid  black;
 }
 body,
 html {
     display: flex;
-    height: 100%;
     margin: 0;
 }
 #main-sideBar {
     display: flex;
+    height: 100%;
     flex-direction: column;
     padding: 8px;
 }
-.SB-intro {
-    font-size: 30px;
+#SB-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#turtleGIF {
+    margin-bottom: 2em;
 }
 #SB-bttnContainer {
     font-size: large;
@@ -24,14 +29,35 @@ html {
     gap: 1em;
     margin-top: 1em;
 }
-.SB-bttn,
-.homePage {
+.SB-bttn {
     text-decoration: none;
-    color: inherit;
 }
-#navLinks {
+/* #navLinks {
     display: flex;
 }
 .right-link {
     margin-left: auto;
+} */
+#cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
+.card-txt {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+#card,
+.card-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 15px 35px;
+}
+.card-image:hover {
+    border-radius: 35px 15px;
+}
+
