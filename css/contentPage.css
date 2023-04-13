@@ -16,7 +16,7 @@ html {
 .SB-intro {
     font-size: 30px;
 }
-#bttnContainer {
+#SB-bttnContainer {
     font-size: large;
     display: flex;
     flex-direction: column;
@@ -24,11 +24,14 @@ html {
     gap: 1em;
     margin-top: 1em;
 }
-.bttn,
+.SB-bttn,
 .homePage {
     text-decoration: none;
     color: inherit;
 }
-#header {
+#navLinks {
     display: flex;
+}
+.right-link {
+    margin-left: auto;
 }
