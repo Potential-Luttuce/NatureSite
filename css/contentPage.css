@@ -1,0 +1,42 @@
+/* FOR SIDEBARS */
+* {
+    /* border: 1px solid  black; */
+}
+body,
+html {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    background: #D7C5DF;
+    color: white;
+}
+#main-sideBar {
+    background-color: #61398F;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.SB-intro {
+    font-size: 30px;
+}
+#bttnContainer {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+.bttn,
+.homePage {
+    text-decoration: none;
+    color: inherit;
+}
+.bttn:hover {
+    color: rgb(23, 98, 168);
+}
+#header {
+    display: flex;
+    background: black;
+}
