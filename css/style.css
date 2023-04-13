@@ -64,6 +64,9 @@ html, body {
     align-items: center;
     padding: 1em 2em;
 }
+.card-info {
+    text-align: center;
+}
 #cards {
     display: flex;
     justify-content: center;
