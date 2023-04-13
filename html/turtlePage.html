@@ -6,21 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turtle Page</title>
 
-    <link rel="stylesheet" href="../css/contentPage.css"
+    <link rel="stylesheet" href="../css/contentPage.css">
+    <style> 
+        body,
+        html {
+        background: #D7C5DF;
+        color: white;  
+        }
+        #main-sideBar {
+        background-color: #61398F;
+        color: aliceblue;
+        }
+        .SB-bttn:hover {
+        color: rgb(23, 98, 168);
+        }
+        #header {
+            background: black;
+        }
+    </style> <!--FOR COLOR-->
 </head>
 <body>
     <div id="main-sideBar">
         <div><p class="SB-intro">Here is some Text:</p>
             Click The Links to Navigate Around.</div>
-        <div id="bttnContainer">
-            <a class="bttn" href="">2020</a>
-            <a class="bttn" href="">2021</a>
-            <a class="bttn" href="">2022</a>
-            <a class="bttn" href="">2023</a>
+        <div id="SB-bttnContainer">
+            <a class="SB-bttn" href="">2020</a>
+            <a class="SB-bttn" href="">2021</a>
+            <a class="SB-bttn" href="">2022</a>
+            <a class="SB-bttn" href="">2023</a>
         </div>
     </div>
     <div id="main-pageContainer">
-        <div id="header">Nav-Bar</div>
+        <div id="header"><div id="navLinks">
+            <div class="left-link">Left</div>
+            <div class="right link">Right</div>
+        </div></div>
         <div id="pageContent"><h1>Turtle Page Conent</h1></div>
     </div>
 </body>
