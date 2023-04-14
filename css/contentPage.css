@@ -1,6 +1,6 @@
 /* FOR CONTENT(SIDEBAR)PAGES */
 * {
-    border: 1px solid  black;
+    /* border: 1px solid  black; */
 }
 body,
 html {
@@ -12,14 +12,35 @@ html {
     height: 100%;
     flex-direction: column;
     padding: 8px;
+    border-right: 2px Solid Black;
 }
 #SB-intro {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#turtleGIF {
+#animalGIF {
+    border: 3px solid black;
     margin-bottom: 2em;
+}
+.SB-bttn,
+#homeBttn {
+    text-decoration: none;
+}
+#homeBttn,
+.SB-bttn {
+    border: 2px solid black;;
+    border-radius: 60%;
+    padding: 5px
+}
+#homeBttn:hover {
+    font-weight: 900;
+}
+.SB-bttn:hover {
+    font-weight: 900;
+}
+#infoText {
+    text-align: center;
 }
 #SB-bttnContainer {
     font-size: large;
@@ -28,9 +49,6 @@ html {
     align-items: center;
     gap: 1em;
     margin-top: 1em;
-}
-.SB-bttn {
-    text-decoration: none;
 }
 /* #navLinks {
     display: flex;
