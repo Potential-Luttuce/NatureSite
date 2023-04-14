@@ -7,6 +7,9 @@ html {
     display: flex;
     margin: 0;
 }
+#big {
+    /* display: flex; */
+}
 #main-sideBar {
     display: flex;
     height: 100%;
@@ -50,17 +53,19 @@ html {
     gap: 1em;
     margin-top: 1em;
 }
-/* #navLinks {
-    display: flex;
+#navBar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    font-size: 30px;
 }
-.right-link {
-    margin-left: auto;
-} */
 #cards {
     display: flex;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
+    gap: 3.4em
 }
 .card-txt {
     width: 150px;
@@ -77,5 +82,11 @@ html {
 }
 .card-image:hover {
     border-radius: 35px 15px;
+}
+
+/* Footer &  */
+#footer {
+    display:flex;
+    justify-content: center;
 }
 
