@@ -103,6 +103,13 @@ body {
 
 /* About Section */
 #aboutContainer {
+ display: flex;
+ justify-content: center; 
+ padding: 20px 0;
+ background-color: #2315e6;
+}
+
+.hide {
     display: none;
 }
 
