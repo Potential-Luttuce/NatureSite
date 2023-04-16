@@ -92,3 +92,8 @@ body {
     border-radius: 35px 15px;
 }
 
+/* About Section */
+#aboutContainer {
+    display: none;
+}
+
