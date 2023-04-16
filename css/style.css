@@ -9,8 +9,8 @@ body {
     width: 100%;
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #7199a3;
-    color: #003533;
+    background-color: #222831;
+    color: aliceblue;
 }
 #navBar {
     display:flex;
@@ -33,14 +33,14 @@ body {
     color: inherit;
 }
 .nav-link:hover {
-    color: #2315e6;
+    color: #D6C6E1;
 }
 .leftLink {
     margin-left: auto;
     margin-right: 2em;
 }
 #headerContainer {
-    background-color: #b4bfbf;
+    background-color: #454e59;
     display: flex;
     justify-content: center;
     padding: 2em 2em;
@@ -55,6 +55,15 @@ body {
 #header-txt,
 .header-image {
     margin-left: auto;
+}
+.header-image{
+    border: 5px solid #892CDC;
+    border-top: 5px solid #2315e6;
+    border-bottom: 5px solid aliceblue; 
+}
+.header-image:hover{
+    border-top: 5px solid aliceblue;
+    border-bottom: 5px solid #2315e6; 
 }
 
 /* CARDS CONTAINER */
