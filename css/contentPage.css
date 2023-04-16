@@ -8,7 +8,7 @@ html {
     margin: 0;
 }
 #big {
-    /* display: flex; */
+    display: flex;
 }
 #main-sideBar {
     display: flex;
