@@ -7,3 +7,9 @@ function about() {
 function alert() {
     alert("Sorry - This section is under construction");
  }
+
+ function dark() {
+   // const page = document.querySelectorAll('#DarkMode');
+   // page.style.cssText = 'background-color: white;';
+   alert('Currently this feature is under Construction.');
+ }

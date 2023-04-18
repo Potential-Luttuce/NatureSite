@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="DarkMode" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,14 @@
         background:  #150b1f;
         
         color: white;  
+        }
+        .DarkModelight {
+            background-color: #150b1f;
+        }
+        .DarkMode {
+            background-color: #150b1f;
+            color: aliceblue;
+            border-radius: 20%;
         }
         #main-sideBar {
         background-color: #7199a3;
@@ -42,17 +50,18 @@
         }
     </style> <!--FOR COLOR-->
 </head>
-<body>
+<body id="DarkMode">
     <div id="big">
         <div id="content">
             <div id="ContentnavBar">
                 <h3 id="pageLogo">Turtles on Logs</h3>
-                    <div><a id="homeBttn" href="../index.html">Home</a>
-                        <a class="SB-bttn" href="">Birds</a>
-                        <a class="SB-bttn" href="">Ducks</a>
-                        <a class="SB-bttn" href="">Fish</a>
-                        <a class="SB-bttn" href="">Swan</a>
-                    </div>
+                <div><a id="homeBttn" href="../index.html">Home</a>
+                    <a class="SB-bttn" href="">Birds</a>
+                    <a class="SB-bttn" href="">Ducks</a>
+                    <a class="SB-bttn" href="">Fish</a>
+                    <a class="SB-bttn" href="">Swan</a>                   
+                 </div>
+                 <button id="dark" class="DarkMode" onclick="dark()">Dark Mode</button>
             </div>
             <div id="Contentcards">
                 <div class="card-txt"><div id="card">
@@ -104,7 +113,8 @@
         </div>
     </div>
     <div id="footer">
-        <div id="author">Michael Cuesta @ CodeWithCuesta</div>
+        <div id="author">Michael Cuesta @ 
+            <a href="https://github.com/CodeWithCuesta">CodeWithCusta</a></div>
     </div>
 </body>
 </html>

@@ -32,7 +32,9 @@ html {
     margin-bottom: 2em;
 }
 .SB-bttn,
-#homeBttn {
+#homeBttn,
+#footer,
+#aboutContainer {
     text-decoration: none;
 }
 #homeBttn,
@@ -76,10 +78,10 @@ html {
 }
 #ContentnavBar {
     overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 #cards,
 #Contentcards {
