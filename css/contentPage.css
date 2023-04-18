@@ -5,6 +5,7 @@
 body,
 html {
     display: flex;
+    flex-direction: column;
     margin: 0;
 }
 #big {
@@ -12,10 +13,14 @@ html {
 }
 #main-sideBar {
     display: flex;
-    height: 100%;
+    width: 225px;
+    /* height: 100%; */
+    position: fixed;
+    top: 0;
     flex-direction: column;
     padding: 8px;
     border-right: 2px Solid Black;
+    border-bottom: 2px solid black;
 }
 #SB-intro {
     display: flex;
@@ -53,22 +58,43 @@ html {
     gap: 1em;
     margin-top: 1em;
 }
-#navBar {
+#pageContent {
+    margin-left: 230px;
+}
+#pageLogo {
+    color: rgb(72, 35, 108);
+    /* margin-right: auto; */
+}
+#navBar,
+#ContentnavBar {
     display:flex;
     justify-content: center;
     align-items: center;
     height: 75px;
     font-size: 30px;
+    gap: .5em;
 }
-#cards {
+#ContentnavBar {
+    overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#cards,
+#Contentcards {
     display: flex;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    gap: 3.4em
+    gap: 3.4em;
+    padding: 50px 0 50px;
+}
+#Contentcards {
+    margin-top: 75px;
 }
 .card-txt {
-    width: 150px;
+    /* width: 150px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,17 +102,21 @@ html {
 }
 #card,
 .card-image {
-    height: 80px;
-    width: 80px;
+    height: 350px;
+    width: 350px;
     border-radius: 15px 35px;
+    border: 1px solid aliceblue
 }
 .card-image:hover {
-    border-radius: 35px 15px;
+    /* border-radius: 35px 15px; */
+    box-shadow: 0 0 24px 1px #2cdc46;
+
 }
 
 /* Footer &  */
 #footer {
     display:flex;
     justify-content: center;
+    padding: 10px;
 }
 
