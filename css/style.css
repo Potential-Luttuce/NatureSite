@@ -40,10 +40,12 @@ body {
     margin-right: 2em;
 }
 #headerContainer {
-    background-color: #454e59;
+    /* background-color: #454e59; */
     display: flex;
     justify-content: center;
     padding: 2em 2em;
+    background-image: url("../images/banner.JPG");
+    
 }
 #header-txt {
     width: 50%;
@@ -98,7 +100,9 @@ body {
     border-radius: 15px 35px;
 }
 .card-image:hover {
-    border-radius: 35px 15px;
+    /* border-radius: 35px 15px; */
+    box-shadow: 0 0 24px 1px rgba(13, 194, 255, 0.5);
+
 }
 
 /* About Section */
