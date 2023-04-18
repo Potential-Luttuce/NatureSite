@@ -39,13 +39,14 @@ body {
     margin-left: auto;
     margin-right: 2em;
 }
+.bgIMG {
+    /* background-image: url("../images/banner.JPG"); */
+}
 #headerContainer {
-    /* background-color: #454e59; */
+    background-color: #667588;
     display: flex;
     justify-content: center;
     padding: 2em 2em;
-    background-image: url("../images/banner.JPG");
-    
 }
 #header-txt {
     width: 50%;
@@ -59,13 +60,12 @@ body {
     margin-left: auto;
 }
 .header-image{
-    border: 5px solid #892CDC;
-    border-top: 5px solid #2315e6;
-    border-bottom: 5px solid aliceblue; 
+    border: 5px solid aliceblue;
+    box-shadow: 10px 5px 5px #892CDC;    
+    width: 300px;
 }
 .header-image:hover{
-    border-top: 5px solid aliceblue;
-    border-bottom: 5px solid #2315e6; 
+    
 }
 
 /* CARDS CONTAINER */
@@ -98,22 +98,22 @@ body {
     height: 80px;
     width: 80px;
     border-radius: 15px 35px;
+    border: 1px solid white
 }
 .card-image:hover {
     /* border-radius: 35px 15px; */
-    box-shadow: 0 0 24px 1px rgba(13, 194, 255, 0.5);
+    box-shadow: 0 0 24px 1px #892CDC;
 
 }
 
 /* About Section */
 #aboutContainer {
- display: flex;
+ /* display: flex; */
  justify-content: center; 
  padding: 20px 0;
  background-color: #2315e6;
 }
-
 .hide {
-    display: none;
+    display: flex;
 }
 
