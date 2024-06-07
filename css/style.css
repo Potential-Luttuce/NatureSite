@@ -31,6 +31,11 @@ body {
     align-items: center;
     text-decoration: none;
     color: inherit;
+    
+}
+.nav-link:hover {
+    /* background-color:#892CDC;; */
+    box-shadow: 0 0 24px 1px #892CDC;
 }
 .nav-link:hover {
     color: #D6C6E1;
@@ -75,12 +80,15 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1em 2em;
+    /* height: 200%; */
+    flex-grow: 2;
 }
 .card-info {
     text-align: center;
 }
 #cards {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
@@ -98,22 +106,22 @@ body {
     height: 80px;
     width: 80px;
     border-radius: 15px 35px;
-    border: 1px solid white
+    box-shadow: 0 0 24px 1px black;
+    /* border: 1px solid white */
 }
 .card-image:hover {
-    /* border-radius: 35px 15px; */
+    border-radius: 35px 15px;
     box-shadow: 0 0 24px 1px #892CDC;
-
 }
 
 /* About Section */
-#aboutContainer {
- /* display: flex; */
+#footerContainer {
+ display: flex;
  justify-content: center; 
- padding: 20px 0;
- background-color: #2315e6;
+ /* padding: 8px; */
+ background-color: #130d63;
+ align-self: flex-end;
+ height: fit-content;
 }
-.hide {
-    display: flex;
-}
+
 
